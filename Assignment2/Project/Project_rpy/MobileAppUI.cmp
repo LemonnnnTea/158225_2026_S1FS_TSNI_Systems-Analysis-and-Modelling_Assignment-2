@@ -1,0 +1,155 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID 058a8829-f7a7-4215-9c30-0cd73be0dd6c;
+	- _myState = 8192;
+	- _name = "MobileAppUI";
+	- _objectCreation = "1935068172220262325338519";
+	- _umlDependencyID = "2697";
+	- Dependencies = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IDependency 
+			- _id = GUID 13a8073a-ff88-4543-b9f8-346fb9716344;
+			- _myState = 2048;
+			- _name = "NavigationModule";
+			- _objectCreation = "1935070172220262325336519";
+			- _umlDependencyID = "3295";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "NavigationModule.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "NavigationModule";
+				- _id = GUID 90e136f0-aaa2-4490-8d78-e5a02ddf3958;
+			}
+		}
+		{ IDependency 
+			- _id = GUID 780494ad-4ce7-41a4-b71d-ee0c3dda4936;
+			- _myState = 2048;
+			- _name = "POISearchModule";
+			- _objectCreation = "1935072172220262325334519";
+			- _umlDependencyID = "3085";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "POISearchModule.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "POISearchModule";
+				- _id = GUID c4a5724e-0f58-4447-96a1-4b9dd42ebb59;
+			}
+		}
+		{ IDependency 
+			- _id = GUID 04c8d14f-1b6b-43db-b2a5-59ffefe7be30;
+			- _myState = 2048;
+			- _name = "OfflineMapModule";
+			- _objectCreation = "1935074172220262325332519";
+			- _umlDependencyID = "3248";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "OfflineMapModule.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "OfflineMapModule";
+				- _id = GUID 73782a7a-69df-49d8-afa2-801680f3f90e;
+			}
+		}
+		{ IDependency 
+			- _id = GUID a4cb3421-fefe-4a8a-b666-e96c625247c5;
+			- _myState = 2048;
+			- _name = "UserDataModule";
+			- _objectCreation = "1935076172220262325330519";
+			- _umlDependencyID = "3048";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "UserDataModule.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "UserDataModule";
+				- _id = GUID 3f7d577c-2403-46d5-aa6a-548c806456b1;
+			}
+		}
+	}
+	- _lastID = 4;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 011d58e6-f948-4bdd-b8eb-e28475ca5ce3;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "1935078172220262325328519";
+		- _umlDependencyID = "2149";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 8773b5b4-3730-4a31-a42a-4b1653b0c963;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 8773b5b4-3730-4a31-a42a-4b1653b0c963;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "1935080172220262325326519";
+			- _umlDependencyID = "2948";
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID d97944d6-cf71-41a0-ace8-0c747cf6c63f;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "1935082172220262325324519";
+				- _umlDependencyID = "2948";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.1.1970::8:0:0;
+			- strongCGTime = 1.1.1970::8:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.17.2026::15:8:54;
+	- strongCGTime = 5.17.2026::15:5:52;
+}
+

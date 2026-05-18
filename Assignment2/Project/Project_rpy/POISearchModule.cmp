@@ -1,0 +1,125 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID c4a5724e-0f58-4447-96a1-4b9dd42ebb59;
+	- _myState = 8192;
+	- _name = "POISearchModule";
+	- _objectCreation = "1935096172220262325310519";
+	- _umlDependencyID = "3085";
+	- Dependencies = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IDependency 
+			- _id = GUID 7f66b6ba-d1f6-4e30-8e01-03a02150a2bc;
+			- _myState = 2048;
+			- _name = "TrafficDataService";
+			- _objectCreation = "1935098172220262325308519";
+			- _umlDependencyID = "3452";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "TrafficDataService.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "TrafficDataService";
+				- _id = GUID 57fa7054-cf32-479a-8be2-747f9d3ddd2c;
+			}
+		}
+		{ IDependency 
+			- _id = GUID 98d32d5a-0819-4a87-ae65-8634dd69e524;
+			- _myState = 2048;
+			- _name = "MapServiceAPI";
+			- _objectCreation = "1935100172220262325306519";
+			- _umlDependencyID = "2857";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "MapServiceAPI.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "MapServiceAPI";
+				- _id = GUID 9f27b8b7-86f9-4294-ba8a-306856413e7d;
+			}
+		}
+	}
+	- _lastID = 2;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 4bcb7545-9f73-4a38-a60b-515d77d90342;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "1935102172220262325304519";
+		- _umlDependencyID = "2131";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 33fb5a9b-7dab-4edf-8075-e84cb9e87300;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 33fb5a9b-7dab-4edf-8075-e84cb9e87300;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "1935104172220262325302519";
+			- _umlDependencyID = "2939";
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 16cfa1d0-a198-4e79-a517-0fb51ca96e94;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "1935106172220262325300519";
+				- _umlDependencyID = "2939";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.1.1970::8:0:0;
+			- strongCGTime = 1.1.1970::8:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.17.2026::15:10:11;
+	- strongCGTime = 5.17.2026::15:6:15;
+}
+

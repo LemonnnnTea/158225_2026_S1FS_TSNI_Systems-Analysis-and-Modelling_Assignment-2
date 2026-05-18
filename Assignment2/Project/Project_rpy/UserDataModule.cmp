@@ -1,0 +1,110 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID 3f7d577c-2403-46d5-aa6a-548c806456b1;
+	- _myState = 8192;
+	- _name = "UserDataModule";
+	- _objectCreation = "1935118172220262325288519";
+	- _umlDependencyID = "3057";
+	- Dependencies = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IDependency 
+			- _id = GUID 9538e947-f80e-4174-af89-637449c1c8db;
+			- _myState = 2048;
+			- _name = "CloudDatabase";
+			- _objectCreation = "1935120172220262325286519";
+			- _umlDependencyID = "2933";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "CloudDatabase.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "CloudDatabase";
+				- _id = GUID d09842cb-1de7-4135-9f89-a1b9259336f8;
+			}
+		}
+	}
+	- _lastID = 1;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID e97474a0-d2d3-4efe-be5e-899666f12e9f;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "1935122172220262325284519";
+		- _umlDependencyID = "2140";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 928bea5b-c87b-4bf0-884e-874b755ff4f6;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 928bea5b-c87b-4bf0-884e-874b755ff4f6;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "1935124172220262325282519";
+			- _umlDependencyID = "2948";
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 6dd91bfb-f111-49cf-bd6f-36fdfbb1b9ad;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "1935126172220262325280519";
+				- _umlDependencyID = "2948";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.1.1970::8:0:0;
+			- strongCGTime = 1.1.1970::8:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.17.2026::15:9:17;
+	- strongCGTime = 5.17.2026::15:6:28;
+}
+

@@ -1,0 +1,90 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID 41b33099-3de9-4546-9912-7acb097d7ff8;
+	- _myState = 10240;
+	- _name = "component_15";
+	- _objectCreation = "1935136172220262325270519";
+	- _umlDependencyID = "2817";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 4a03390c-e147-4d49-8d35-b8ede5981619;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "1935138172220262325268519";
+		- _umlDependencyID = "2149";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID dccbc38e-fdfc-4915-9fd4-e3ff83d5cdc5;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID dccbc38e-fdfc-4915-9fd4-e3ff83d5cdc5;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "1935140172220262325266519";
+			- _umlDependencyID = "2948";
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 4d0f0bf6-6253-4634-86a4-37adf7322d61;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "1935142172220262325264519";
+				- _umlDependencyID = "2948";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.1.1970::8:0:0;
+			- strongCGTime = 1.1.1970::8:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.17.2026::15:4:55;
+	- strongCGTime = 5.17.2026::15:4:55;
+}
+
